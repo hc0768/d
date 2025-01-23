@@ -4,121 +4,14 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "观影",
+      "name": "🌺观影🌺",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
     },
-  {
-      "key": "潮 汕",
-      "name": "🥨潮汕",
-      "type": 3,
-      "api": "csp_Bili",
-      “可搜索”：1，
-      “快速搜索”：1，
-      “可过滤”：1，
-      "ext": "./json/Bli潮汕.json"
-    },
-{
-      "key": "戏曲",
-      "name": "🎈国粹戏曲",
-      “类型”：3，
-      "api": "csp_Bili",
-      “可搜索”：1，
-      “快速搜索”：1，
-      “可过滤”：1，
-      “ext”：“./json/Blixq.json”
-    },
-    {
-      "key": "相声小品",
-      "name": "🏮相声小品",
-      “类型”：3，
-      "api": "csp_Bili",
-      “可搜索”：1，
-      “快速搜索”：1，
-      “可过滤”：1，
-      “ext”：“./json/Blixs.json”
-    },
-    {
-      "key": "演唱会",
-      "name": "🎸演唱会",
-      “类型”：3，
-      "api": "csp_Bili",
-      “可搜索”：1，
-      “快速搜索”：1，
-      “可过滤”：1，
-      "ext": "./json/演唱会.json"
-    },
-    {
-      "key": "哔哩哔哩",
-      "name": "🅱️哔哩大全",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/Bili.json"
-    },
-    {
-      "key": "MTV",
-      "name": "🎧明星┃MV",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./json/MTV.json"
-    },
-    {
-      "key": "酷奇",
-      "name": "🎤酷奇┃MV",
-      "type": 3,
-      "api": "./api/drpy2.min.js",
-      "ext": "./js/酷奇MV.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "js_a8音乐",
-      "name": "🎸A8音乐",
-      "type": 3,
-      "api": "./api/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./js/a8yy.js"
-    },
-    {
-      "key": "哔哩直播",
-      "name": "🅱️哔哩直播",
-      "type": 3,
-      "api": "./api/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./js/blzb.js"
-    },
-    {
-      "key": "csp_Bili短剧",
-      "name": "🅱️哔哩短剧",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./json/Bili短剧.json"
-    },
+
     {
       "key": "玩偶",
       "name": "👽玩偶哥哥┃4K弹幕",
@@ -136,7 +29,7 @@
     },
     {
       "key": "YGP",
-      "name": "🚀叨观荐影┃预告片",
+      "name": "🚀荐影┃预告片",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
@@ -429,19 +322,94 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {
-      "key": "酷奇",
-      "name": "🎤酷奇┃MV",
+ {
+      "key": "js_310直播",
+      "name": "🥎┃三一┃直播",
       "type": 3,
-      "api": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
+      "api": "./api/drpy2.min.js",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./js/310.js"
+    },
+  {
+      "key": "影视解说",
+      "name": "🎬影视解说",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/影视解说.json"
+    },
+   {
+      "key": "bili_戏曲",
+      "name": "🅱️哔哩┃戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.433
       },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./lib/json/哔哩戏曲.json"
+      },
+      "timeout": 20
+    },
+     {
+            "key": "潮 汕",
+            "name": "🥨潮汕",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/Bli潮汕.json"
+        },
+ {
+      "key": "戏 曲",
+      "name": "🎈国粹戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/Blixq.json"
+    },
+    {
+      "key": "相声小品",
+      "name": "🏮相声小品",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/Blixs.json"
+    },
+    {
+      "key": "演唱会",
+      "name": "🎸演唱会",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/演唱会.json"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "🅱️哔哩大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/Bili.json"
     },
     {
       "key": "MTV",
@@ -455,9 +423,51 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://ghgo.xyz/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/MTV.json"
-      }
+      "ext": "./json/MTV.json"
+    },
+    {
+      "key": "酷奇",
+      "name": "🎤酷奇┃MV",
+      "type": 3,
+      "api": "./api/drpy2.min.js",
+      "ext": "./js/酷奇MV.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "js_a8音乐",
+      "name": "🎸A8音乐",
+      "type": 3,
+      "api": "./api/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./js/a8yy.js"
+    },
+    {
+      "key": "哔哩直播",
+      "name": "🅱️哔哩直播",
+      "type": 3,
+      "api": "./api/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./js/blzb.js"
+    },
+    {
+      "key": "csp_Bili短剧",
+      "name": "🅱️哔哩短剧",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./json/Bili短剧.json"
     },
     {
       "key": "虎牙直播js",
@@ -732,7 +742,7 @@
     },
     {
       "key": "fan",
-      "name": "导航 www.饭太硬.com",
+      "name": "导航",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -770,14 +780,26 @@
       "name": "IPV6①",
       "type": 0,
       "url": "https://ghgo.xyz/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
-      “玩家类型”：1
+      "playerType": 1
+    },
+ {
+      "name": "🌺直播🌺",
+      "type": 0,
+      "url": "https://git.acwing.com/Q305/z/-/raw/main/z.txt",
+      "playerType": 1
+    },
+ {
+      "name": "🌺aktv港台🌺",
+      "type": 0,
+      "url": "https://aktv.top/live.txt",
+      "playerType": 1
     },
     {
       "name": "平台直播",
-      “类型”：0，
+      "type": 0,
       "url": "http://tv.iill.top/m3u/Live",
       "ua": "okhttp/3.15",
-      “玩家类型”：2
+      "playerType": 2
     }
   ]
 }
